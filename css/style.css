@@ -41,3 +41,28 @@ p {
   width: 400px;
   border-radius: 0px;
 }
+
+.nav-icons{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  margin:30px;
+}
+
+.nav-icons a{
+  font-size:60px;
+  text-decoration:none;
+  cursor:pointer;
+  transition: transform 0.3s ease;
+  animation: float 3s ease-in-out infinite;
+}
+
+.nav-icons a:hover{
+  transform: scale(1.2);
+}
+
+@keyframes float {
+  0% {transform: translateY(0px);}
+  50% {transform: translateY(-6px);}
+  100% {transform: translateY(0px);}
+}
