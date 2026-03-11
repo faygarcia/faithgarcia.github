@@ -54,18 +54,12 @@ p {
   font-size: 60px;
   text-decoration: none;
   cursor: pointer;
-  animation: float 3s ease-in-out infinite;
   transition: transform 0.3s ease;
+  animation: float 3s ease-in-out infinite;
 }
 
 .nav-icons a:hover {
   transform: scale(1.2);
-}
-
-@keyframes float {
-  0% { transform: translateY(0px); }
-  50% { transform: translateY(-6px); }
-  100% { transform: translateY(0px); }
 }
 
 .nav-icons a:nth-child(2) {
@@ -74,4 +68,10 @@ p {
 
 .nav-icons a:nth-child(3) {
   animation-delay: 1s;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
 }
