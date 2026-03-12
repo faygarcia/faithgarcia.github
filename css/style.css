@@ -11,9 +11,31 @@ h1 {
   font-family: pacifico;
 }
 
+h2 {
+  color: white;
+  text-align: center;
+  font-family: pacifico;
+}
+
 p {
   font-family: pacifico;
   font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.project-link a {
+  display: inline-block;
+  text-align: center;
+}
+
+.project-link {
+  text-align: center;
+}
+
+.logo {
+  filter: brightness(0) invert(1);
+  margin-right: 20px;
 }
 
 #banner {
